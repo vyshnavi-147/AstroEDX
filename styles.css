@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/galaxy-milky-way-stars-deep-space-colorful-astronomy-nebula-3840x2160-5366.jpg'); /* Replace 'galaxy.jpg' with the path to your galaxy background image */
+    background-size: cover; /* Ensures the background image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* The rest of your CSS styles here... */
+
+
+.container {
+    background-color: #313866; /* Change the container background color to white */
+    border-radius: 10px; /* Add some border-radius for a softer look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #D7BBF5;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #D7BBF5; /* Add a border to the input */
+    border-radius: 5px; /* Add some border-radius for a softer look */
+}
+
+button {
+    background-color: #333;
+    color: #D7BBF5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Add some border-radius for a softer look */
+    transition: background-color 0.3s ease; /* Add a transition effect for a hover effect */
+}
+
+button:hover {
+    background-color: #555; /* Change the background color on hover */
+}
+
+.description-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#planet-info {
+    background-color: #D7BBF5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

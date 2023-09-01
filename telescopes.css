@@ -1,0 +1,69 @@
+/* Reset default margin and padding */
+body, h1, p, ul, li, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center align everything */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #e6e956; /* Set background color to grey */
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+.top-menu {
+    list-style: none;
+}
+
+.top-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.main {
+    margin-bottom: 20px;
+}
+
+.telescope-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.telescope-list div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+footer {
+    margin-top: 20px;
+    color: #777;
+}

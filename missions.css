@@ -1,0 +1,96 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, li, button, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center align everything */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(241, 241, 81); /* Changed to yellow background */
+    padding: 40px; /* Increased padding for the container */
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+.top-menu {
+    list-style: none;
+}
+
+.top-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.mission-list {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: 20px;
+    color: #777;
+    font-size: 18px;
+}
+
+/* Add this rule to make specific mission names bold */
+.bold-text {
+    font-weight: bold;
+}
